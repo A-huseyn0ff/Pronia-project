@@ -1,0 +1,82 @@
+.Hello{
+    height: 50px;
+    background-color: rgb(111, 221, 107);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 90%;
+.hello-right{
+
+}
+    }
+}
+.navbar-Pronia{
+    height: 150px;
+    background-color: rgb(237, 243, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        height: 90%;
+        .navbar-number{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            .phone-icon{
+                // border: 1px solid;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: rgb(111, 221, 107);
+              
+                .fa-phone{
+                    color: white;
+                }
+            }
+        }
+        .number{
+            a{
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: 600;
+                color: rgb(0, 0, 0);
+                padding-left: 20px;
+            }
+        }
+        .navbar-img{
+           
+         display: flex;
+         align-items: center;
+         justify-content: center;
+            
+            // background-image: url('https://htmldemo.net/pronia/pronia/assets/images/logo/dark.png');
+        }
+        .navbar-icons{
+           
+           i{
+            font-size: 20px;
+            padding: 0 7px 0 7px;
+           }
+           .fa-magnifying-glass:hover{
+           color: rgb(111, 221, 107);
+           }
+           .fa-user:hover{
+            color: rgb(111, 221, 107);
+            }
+            .fa-heart:hover{
+                color: rgb(111, 221, 107);
+                }
+                .fa-toolbox:hover{
+                    color: rgb(111, 221, 107);
+                    }
+        }
+    }
+}
